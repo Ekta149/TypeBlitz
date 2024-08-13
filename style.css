@@ -236,11 +236,15 @@ p {
     font-weight: 700;
 }
 
-.faq-columns{
-    display: grid;
-    grid: auto-flow / 1fr 1fr 1fr;
-    grid-gap: 3rem 3rem;
+section {
+    display: block;
 }
+
+.faq-columns {
+    display: grid;
+    grid-gap: 3rem 2rem;
+}
+
 
 .faq-answer{
     font-weight: 400;
